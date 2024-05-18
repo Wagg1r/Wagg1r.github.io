@@ -1,4 +1,4 @@
-This is the [link](https://brad-portfolio.netlify.app/) to my personal website. 
+This is the [link](https://wagg1r.github.io/) to my personal website. 
 
 HTML, CSS, JavaScript and Bootstrap 5 Portfolio Website
 =======
