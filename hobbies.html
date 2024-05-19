@@ -31,7 +31,7 @@
                         <a class="nav-link" href="images\Thomas Resume.pdf">Resume</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -51,7 +51,7 @@
         </div>
     </nav>
     <!-- main banner -->
-    <section class="bgimage" id="home">
+    <!-- <section class="bgimage" id="home">
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
@@ -70,66 +70,24 @@
             </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- updating age without need for update -->
-    <script>
-        function calculateAge(birthYear) {
-            const currentYear = new Date().getFullYear();
-            return currentYear - birthYear;
-        }
 
-        document.addEventListener("DOMContentLoaded", function() {
-            const birthYear = 2001; // Replace with your birth year
-            const ageElement = document.getElementById("age");
-            ageElement.textContent = calculateAge(birthYear);
-        });
-    </script>
 
     <!-- about section-->
     <section id="about">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
+            <h1 class="text-center">Interests and Hobbies</h1>
             <div class="row mt-4">
                 <div class="col-lg-4">
                     <img src="images/about.jpeg" class= "imageAboutPage" alt="headshot of Thomas Waggoner">
                 </div>
 
                 <div class="col-lg-8">
-                    <p> I am a recent graduate with a passion for cyber security, data analysis, and teaching. I am looking for a job in the IT that will use a combinations of all of these
-                        passions.
-                        
+                    <p>
+                        Placeholder
                     </p>
-                    <div class="row mt-3">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Name: Thomas Waggoner</li>
-                                <li>Age: <span id="age"></span></li>
-                                <li>Looking for a job in Information Technology </li>
-
-                            </ul>
-                        </div>
-                        <!-- <div class="col-md-6">
-                            <ul>
-                                <li>place holder</li>
-                                <li>place holder</li>
-                                <li>place holder</li>
-
-                            </ul>
-                        </div> -->
-                    </div>
-                    <div class="row mt-3">
-                        <p> 
-                            After taking my first Informatics class I knew I wanted to make this into my career and hobby. Information Technology is such a wide branching field threat
-                            only grows more interesting the more topics I learn. I have a intrest in cyber security as it is an ever evolving field that will always keep me on my toes as
-                            new exploits and vulnerabilities are found everyday. I also have taken data vizulization courses that have taught me the value of working with data first hand.
-                            I have been able to create vizulization and figure out why certain relationships exist between seemingly unrelated pieces of data to reveal the bigger picture.
-                            While data analysis is a field that interests me on its own in combination with other fields like cyber security there is potenial to enveil eye opening relizations
-                            and educate in the process. Education is the other field that I have been involved and passionate in for over two years. I was able to communicate the passion I
-                            have for Infromation Technology and help a wide range of students from different backgrounds. It helped me become a more confident public speaker and educator
-                            as I taught infront of over a hundred students over my tenure as a lead undergraduate instructor.
-                        </p>
-                    </div>
                 </div>
             </div>
     </section>
@@ -137,17 +95,17 @@
     <!-- Skills section-->
     <section id="skills">
         <div class="container">
-            <h1 class="text-center">Skills</h1>
+            <h1 class="text-center">Hobbies</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card skillsText">
                         <div class="card-body">
                             <i class="fab fa-python skillsIcon"></i>
-                            <h4 class="card-title mt-3">Python</h4>
+                            <h4 class="card-title mt-3">Woodworking</h4>
                             <p class="card-text mt-3"> 
-                                Python is the language I am most familiar with as I have had multiple classes on different use cases for Python.<br>
-                                <a href="https://github.com/Wagg1r/i211_project" target="_blank">Website with a SQL database</a><br>
-                                <a href="https://github.com/Wagg1r/Python-Data-Vizualization" target="_blank">Data visualization with Python</a>
+                                My Father makes creates furniture, cabinets, tables, and other woodworking projects and I have helped him on a few projects.
+                                I have really loved learning about the creative and mathematical side that goes into woodworking. I hope to be able to 
+                                furnish my own house one day with all family made pieces.
                             </p>
                         </div>
                     </div>  
@@ -156,10 +114,10 @@
                     <div class="card skillsText">
                         <div class="card-body">
                             <i class='fas skillsIcon fa-layer-group'></i>
-                            <h4 class="card-title mt-3">C and C#</h4>
-                            <p class="card-text mt-3"> I have devloped a few scripts in C that can be viewed <a href="https://github.com/Wagg1r/C291_2023" target="_blank">here</a>. It is also been used for many
-                                decades and it still very relevant in coding culture after all these years. I am
-                                interested in learning more for C as the allocating memory can be incredibly adventagous in making programs light weight.
+                            <h4 class="card-title mt-3">Gaming</h4>
+                            <p class="card-text mt-3"> I have loved gaming since I was a kid on my PS2 and gameboy advanced. Some of my favorite games of all time
+                                are Jak and Daxter, The Last of Us, and Ghost of Tsushima, and Rainbow Six Siege. The story and world in these games feels like its alive
+                                always keeping my interest with puzzles and storylines that I'll never forget. 
                             </p>
                         </div>
                     </div>  
@@ -169,9 +127,11 @@
                     <div class="card skillsText">
                         <div class="card-body">
                             <i class='far skillsIcon fa-check-circle'></i>
-                            <h4 class="card-title mt-3">HTML and CSS</h4>
-                            <p class="card-text mt-3">HTML and CSS were the first coding languages I learned at IU. I used it to create a simple sample website of all the course work I did my
-                                freshman year and the base for this website currently. While a simple language it holds so much potential as it is easy to maintain update and add features to.
+                            <h4 class="card-title mt-3">Computer Repair</h4>
+                            <p class="card-text mt-3">
+                                I love getting the most out of computers. I have always been the one in my family to help fix computers and I enjoy every minute of it.
+                                Being able to breathe new life into an old, dying computer is rewarding to me because I am a strong advocate for repurposing hardware
+                                rather than throwing it out. Plenty of old machines can be extremely useful if you think outside of the box.
                             </p>
                         </div>
                     </div>  
@@ -183,10 +143,13 @@
                     <div class="card skillsText">
                         <div class="card-body">
                             <i class='fas skillsIcon fa-search'></i>
-                            <h4 class="card-title mt-3">SQL</h4>
-                            <p class="card-text mt-3">SQL is the data base tool used for these two projects and I have found it incredibly useful as a data base it is 
-                                easy to use and light weight. This allows it to be used with multiple languages in order to store information. 
-                                <a href="https://github.com/Wagg1r/I308" target="_blank">here</a>
+                            <h4 class="card-title mt-3">Computer Networking</h4>
+                            <p class="card-text mt-3">
+                                While most people don't think about the Wi-fi network that their computer is connected to it's an incredibly indepth network of computers
+                                and wires that most people hardly think about. I have had hours of fun creating my own home network with just a few game consoles and two computers
+                                and a home server. Being in control of my own network and optimizing it for my daily use has become a passion project that I hope I get to
+                                utilize all my skills in my career.
+
                             </p>
                         </div>
                     </div>  
@@ -210,7 +173,7 @@
                     <div class="card skillsText">
                         <div class="card-body">
                             <i class='fas skillsIcon fa-wrench'></i>
-                            <h4 class="card-title mt-3">PHP</h4>
+                            <h4 class="card-title mt-3">cooking</h4>
                             <p class="card-text mt-3">PHP is another easy to use coding laguage that can really help boulster the functionality of 
                                 my websites as can be seen <a href="https://github.com/Wagg1r/I308" target="_blank">here</a> on this simple data base look up tool.
                             </p>
