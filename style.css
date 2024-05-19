@@ -62,6 +62,24 @@
     border: 1px solid #008000;
 }
 
+
+/* Ensure the parent row is a flex container */
+.row.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Make sure each column is a flex container and cards take full height */
+.col-lg-4.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure the card fills the height of the column */
+.card.flex-fill {
+    flex: 1;
+}
+
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
