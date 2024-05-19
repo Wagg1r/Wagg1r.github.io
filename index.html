@@ -56,6 +56,20 @@
         </div>
     </section>
 
+    <!-- updating age without need for update -->
+    <script>
+        function calculateAge(birthYear) {
+            const currentYear = new Date().getFullYear();
+            return currentYear - birthYear;
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const birthYear = 2001; // Replace with your birth year
+            const ageElement = document.getElementById("age");
+            ageElement.textContent = calculateAge(birthYear);
+        });
+    </script>
+
     <!-- about section-->
     <section id="about">
         <div class="container mt-4 pt-4">
@@ -73,7 +87,7 @@
                         <div class="col-md-6">
                             <ul>
                                 <li>Name: Thomas Waggoner</li>
-                                <li>Age: 23</li>
+                                <li>Age: <span id="age"></span></li>
                                 <li>Occupation: Cyber Security and Information Technology </li>
 
                             </ul>
