@@ -1,6 +1,7 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
+    font-family: "Times New Roman", Times, serif;
 }
 
 /* hero background image */
@@ -9,16 +10,17 @@
     filter: brightness(100%);
     background-size:cover;
     position:relative;
-
     /* a linear gradient over the image to make the text on top more readible */
-    background-image: linear-gradient(to bottom, rgba(124, 0, 0, 0.52), rgba(255, 255, 255, 0.3)), url('images/heroImage.jpeg');
+    background-image: linear-gradient(to bottom, rgba(83, 0, 0, 1), rgba(255, 255, 255, 0.3)), url('images/heroImage.jpeg');
 }
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    font-family: "Times New Roman", Times, serif;
 }
 .hero_desc {
     font-size: 2rem;
+    font-family: "Times New Roman", Times, serif;
 }
 .hero-text {
     text-align: center;
@@ -26,11 +28,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
-    /* background-color: white;
-    border: 2px solid red; */
-    /*padding: 20px; /* Optional: Add padding for better visual appearance */
-    /* max-width: 100px; Adjust the width as needed */
+    color: white;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+    font-family: "Times New Roman", Times, serif;
+    
 }
 
 /* spacing on all sections */
@@ -40,6 +45,7 @@
 } */
 #contact {
     padding-bottom: 4rem;
+    font-family: "Times New Roman", Times, serif;
 }
 /* about section image css */
 .imageAboutPage {
@@ -50,20 +56,24 @@
 .skillsText.card {
     height: 280px;
     cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
   }
 .skillsIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
+    font-family: "Times New Roman", Times, serif;
 }
 .card-title {
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
 }
 .card:hover .skillsIcon {
     color: #008000;
 }
 .skillsText:hover {
     border: 1px solid #008000;
+    font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -99,4 +109,17 @@
 #footer {
     background-color: #808080;
     text-align: center;
+}
+p{
+    font-family: "Times New Roman", Times, serif;
+}
+ul{
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", Times, serif;
+}
+a.navbar-brand {
+    font-family: "Times New Roman", Times, serif;
 }
