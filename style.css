@@ -123,3 +123,8 @@ h1, h2, h3, h4, h5, h6 {
 a.navbar-brand {
     font-family: "Times New Roman", Times, serif;
 }
+
+img {
+    max-width: 100%; /* Set the maximum width to 100% of its container */
+    height: 400px; /* Maintain the aspect ratio */
+}
