@@ -6,12 +6,21 @@
 
 /* hero background image */
 .bgimage {
-    height:100vh;
+    height: 100vh; /* Full viewport height */
     filter: brightness(100%);
-    background-size:cover;
-    position:relative;
-    /* a linear gradient over the image to make the text on top more readible */
+    background-size: cover; /* Ensures the image covers the entire background area */
+    background-position: center; /* Centers the background image */
+    position: relative;
+    /* A linear gradient over the image to make the text on top more readable */
     background-image: linear-gradient(to bottom, rgba(83, 0, 0, 1), rgba(255, 255, 255, 0.3)), url('images/heroImage.jpeg');
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+/* Additional styling for mobile devices if necessary */
+@media (max-width: 768px) {
+    .bgimage {
+        /* Any specific styles for mobile can be added here */
+    }
 }
 /* text css above hero image*/
 .hero_title {
