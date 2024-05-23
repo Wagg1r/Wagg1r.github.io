@@ -1,7 +1,7 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
-    font-family: "Times New Roman", Times, serif;
+    
 }
 
 /* hero background image */
@@ -25,11 +25,11 @@
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
-    font-family: "Times New Roman", Times, serif;
+    
 }
 .hero_desc {
     font-size: 2rem;
-    font-family: "Times New Roman", Times, serif;
+    
 }
 .hero-text {
     text-align: center;
@@ -43,7 +43,7 @@
         0 0.07em black,
         -0.07em 0 black,
         0 -0.07em black;
-    font-family: "Times New Roman", Times, serif;
+    
     
 }
 
@@ -54,7 +54,7 @@
 } */
 #contact {
     padding-bottom: 4rem;
-    font-family: "Times New Roman", Times, serif;
+    
 }
 /* about section image css */
 .imageAboutPage {
@@ -65,24 +65,24 @@
 .skillsText.card {
     height: 280px;
     cursor: pointer;
-    font-family: "Times New Roman", Times, serif;
+    
   }
 .skillsIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
-    font-family: "Times New Roman", Times, serif;
+    
 }
 .card-title {
     text-align: center;
-    font-family: "Times New Roman", Times, serif;
+    
 }
 .card:hover .skillsIcon {
     color: #008000;
 }
 .skillsText:hover {
     border: 1px solid #008000;
-    font-family: "Times New Roman", Times, serif;
+    
 }
 
 
